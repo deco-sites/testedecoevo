@@ -84,6 +84,7 @@
               "deco-sites/std/sections/SEOPLP.tsx",
               "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx",
               "deco-sites/testedecoevo/sections/DesignSystem.tsx",
+              "deco-sites/testedecoevo/sections/Famous.tsx",
               "deco-sites/testedecoevo/sections/GetStarted.tsx",
               "deco-sites/testedecoevo/sections/Head.tsx",
               "deco-sites/testedecoevo/sections/Header.tsx",
@@ -7751,6 +7752,19 @@
       "required": [],
       "title": "deco-sites/testedecoevo/sections/DesignSystem.tsx@Props"
     },
+    "ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvRmFtb3VzLnRzeA==@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "deco-sites/testedecoevo/sections/Famous.tsx@Props"
+    },
     "ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvR2V0U3RhcnRlZC50c3g=@Props": {
       "type": "object",
       "properties": {
@@ -10127,6 +10141,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvRmFtb3VzLnRzeA==": {
+      "title": "deco-sites/testedecoevo/sections/Famous.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvRmFtb3VzLnRzeA==@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/testedecoevo/sections/Famous.tsx"
+          ],
+          "default": "deco-sites/testedecoevo/sections/Famous.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvR2V0U3RhcnRlZC50c3g=": {
       "title": "deco-sites/testedecoevo/sections/GetStarted.tsx",
       "type": "object",
@@ -11136,6 +11171,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvRGVzaWduU3lzdGVtLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvRmFtb3VzLnRzeA=="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvR2V0U3RhcnRlZC50c3g="
