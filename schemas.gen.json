@@ -87,6 +87,7 @@
               "deco-sites/testedecoevo/sections/GetStarted.tsx",
               "deco-sites/testedecoevo/sections/Head.tsx",
               "deco-sites/testedecoevo/sections/Header.tsx",
+              "deco-sites/testedecoevo/sections/Swipper.tsx",
               "$live/matchers/MatchAlways.ts",
               "$live/matchers/MatchDate.ts",
               "$live/matchers/MatchDevice.ts",
@@ -7815,6 +7816,19 @@
       ],
       "title": "deco-sites/testedecoevo/sections/Header.tsx@Props"
     },
+    "ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvU3dpcHBlci50c3g=@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "deco-sites/testedecoevo/sections/Swipper.tsx@Props"
+    },
     "ZGVjby1jeC9saXZlL21hdGNoZXJzL01hdGNoRGF0ZS50cw==@Props": {
       "type": "object",
       "properties": {
@@ -10176,6 +10190,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvU3dpcHBlci50c3g=": {
+      "title": "deco-sites/testedecoevo/sections/Swipper.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvU3dpcHBlci50c3g=@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/testedecoevo/sections/Swipper.tsx"
+          ],
+          "default": "deco-sites/testedecoevo/sections/Swipper.tsx"
+        }
+      }
+    },
     "JGxpdmUvbWF0Y2hlcnMvTWF0Y2hBbHdheXMudHM=": {
       "title": "$live/matchers/MatchAlways.ts",
       "type": "object",
@@ -11110,6 +11145,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvSGVhZGVyLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWRlY29ldm8vc2VjdGlvbnMvU3dpcHBlci50c3g="
         }
       ]
     },
